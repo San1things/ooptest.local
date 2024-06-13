@@ -1,0 +1,44 @@
+.header_main {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    /* kung pano linya nung mga divs kung pa row ba o pa collumn */
+    flex-wrap: wrap;
+    /* bababa yung mga contents pag sumobara na sa website */
+    justify-content: space-between;
+    /* pag layulayuin yung mga divas ng gamit rows*/
+    align-content: normal;
+    /* pag layulayuin yung mga divas ng gamit columns*/
+    /* gap: 50px 40px; same way kung pano mo pag lalayu layuin yun mga collumns at rows*/
+    align-items: center;
+    /* pano i aalign yung mismong inside content */
+    text-shadow: horizontal vertical blur color;
+    display: block;
+    /* making a content a block to make a backround */
+    
+
+
+}
+
+.header_main div {
+    height: 40px;
+}
+
+.header_main .div_1 {
+    background-color: #fff;
+    flex: 0 0 100px;
+    /* flex: grow shrink basis; */
+}
+
+.header_main .div_2 {
+    background-color: #63E5CA;
+    flex: 0 0 100px;
+    /* align-self: flex-start; iignore lang neto yung pinakang code sa main */
+}
+
+.header_main .div_3 {
+    background-color: #6B7EE5;
+    flex: 0 0 100px;
+}
